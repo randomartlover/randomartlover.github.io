@@ -1,0 +1,142 @@
+body {
+  background-color: #ebe3e3;
+}
+
+.BodyMargin {
+  width: 90%;
+  margin: auto;
+}
+
+.name {
+  font-size: 3.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #413f43;
+  font-weight: 550;
+}
+
+.jobTitle {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #413f43;
+  font-weight: 550;
+}
+
+.headerNav {
+  color: #7c7c71;
+}
+
+.summaryDiv {
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+.hello {
+  font-size: 4em;
+  color: #413f43;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 550;
+}
+
+#profilePic {
+  height: 28em;
+  width: 28em;
+}
+
+@media (max-width: 1156px) {
+  .profile-pic-responsive {
+    padding: 5px 5px;
+    font-size: 90%;
+    line-height: 1.2;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1081px) {
+  .profile-pic-responsive {
+    padding: 5px 5px;
+    font-size: 85%;
+    line-height: 1.2;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .profile-pic-responsive {
+    padding: 5px 5px;
+    font-size: 60%;
+    line-height: 1.2;
+    text-align: center;
+  }
+}
+
+.btn-circle {
+  border-radius: 50%;
+  width: 12em;
+  height: 12em;
+  margin-left: 0.45em;
+  margin-right: 0.45em;
+}
+
+.resumeButton {
+  background-color: #de324e;
+  color: white;
+  font-size: 12px;
+  border-style: none;
+}
+
+.skillButton {
+  background-color: #d3cb25;
+  color: white;
+  font-size: 12px;
+  border-style: none;
+}
+
+.workButton {
+  background-color: #25c5da;
+  color: white;
+  font-size: 12px;
+  border-style: none;
+}
+
+@media (max-width: 1156px) {
+  .btn-responsive {
+    padding: 5px 5px;
+    font-size: 70%;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 1081px) {
+  .btn-responsive {
+    padding: 0;
+    font-size: 50%;
+    line-height: 1.2;
+  }
+}
+
+p{
+  color: #7c7c71;
+  margin-right: 6em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+footer {
+  color: white;
+  background-color: #d65169;
+  padding-top: 2em;
+  padding-left: 1em;
+}
+
+.material-icons {
+  width: 3em;
+  height: 3em;
+}
+
+.icon-align {
+  text-align: right;
+}
+
+.social-icons {
+  width: 1em;
+  height: 1em;
+}

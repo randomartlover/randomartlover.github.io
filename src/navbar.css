@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 6.5px;
+  font-weight: 550;
+  color: #7c7c71;
+}
+
+.navbar__link {
+  margin: 1em;
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.3em;
+  color: #7c7c71;}
+
+.navbar__link:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+  text-decoration: solid;
+  color: lightskyblue;
+}
+
+.navbar__link--active {
+    
+  color: lightskyblue;
+  text-decoration: none;
+  transition: color .5s ease-in-out;
+}

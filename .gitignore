@@ -1,0 +1,10 @@
+node_modules
+.cache/
+dist/
+.env
+coverage/
+.vscode/
+.eslintrc.json
+.prettierrc
+package-lock.json
+package.json
